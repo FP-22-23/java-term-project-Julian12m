@@ -20,13 +20,13 @@ The dataset NBA all-time scoring leaders can be obtained from the following link
 * **1960-2019(60 columns)**: of type integer, these 60 columns include 60 years, from 1960 to 2019(both included), in which each column corresponding to each year indicates how many total points each NBA player had by that year.
 * **Total Points**: of type integer, it indicates the number of total points scored by each player.This column actually has the same values as column 2019.
 
-## Tipos implementados
+## Types implemented
 
-Los tipos que se han implementado en el proyecto son los siguientes:
+The types that have been implemented in the project are the following:
 
-### Tipo Base - Partida
-Representa una partida de ajedrez concreta.
-**Propiedades**:
+### Type Base - Mostpoints
+Represents the NBA players with most points.
+**Properties**:
 
 - _clasificatoria_, de tipo _Boolean_, consultable. Indica si las partidas han sido calificadas o no, es decir si son partidas amistosas o de tipo clasificatorio. 
 - _tipoVictoria_, de tipo _TipoVictoria_, consultable. Indica el tipo de victoria. Puede tomar los valores OUTOFTIME, RESIGN, MATE, DRAW.
